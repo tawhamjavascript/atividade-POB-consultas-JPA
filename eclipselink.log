@@ -1,0 +1,64 @@
+[EL Fine]: server: 2023-05-31 17:03:52.985--Thread(Thread[#1,main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2023-05-31 17:03:53.13--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The access type for the persistent class [class modelo.Carro] is set to [FIELD].
+[EL Config]: metadata: 2023-05-31 17:03:53.151--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2023-05-31 17:03:53.153--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The access type for the persistent class [class modelo.Aluguel] is set to [FIELD].
+[EL Config]: metadata: 2023-05-31 17:03:53.154--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The target entity (reference) class for the many to one mapping element [field carro] is being defaulted to: class modelo.Carro.
+[EL Config]: metadata: 2023-05-31 17:03:53.154--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class modelo.Cliente.
+[EL Config]: metadata: 2023-05-31 17:03:53.155--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The access type for the persistent class [class modelo.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2023-05-31 17:03:53.155--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The target entity (reference) class for the one to many mapping element [field alugueis] is being defaulted to: class modelo.Aluguel.
+[EL Config]: metadata: 2023-05-31 17:03:53.156--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The alias name for the entity class [class modelo.Carro] is being defaulted to: Carro.
+[EL Config]: metadata: 2023-05-31 17:03:53.157--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The table name for entity [class modelo.Carro] is being defaulted to: CARRO.
+[EL Config]: metadata: 2023-05-31 17:03:53.166--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [alugado] is being defaulted to: ALUGADO.
+[EL Config]: metadata: 2023-05-31 17:03:53.167--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [modelo] is being defaulted to: MODELO.
+[EL Config]: metadata: 2023-05-31 17:03:53.168--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [placa] is being defaulted to: PLACA.
+[EL Config]: metadata: 2023-05-31 17:03:53.169--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The alias name for the entity class [class modelo.Aluguel] is being defaulted to: Aluguel.
+[EL Config]: metadata: 2023-05-31 17:03:53.169--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The table name for entity [class modelo.Aluguel] is being defaulted to: ALUGUEL.
+[EL Config]: metadata: 2023-05-31 17:03:53.169--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [datainicio] is being defaulted to: DATAINICIO.
+[EL Config]: metadata: 2023-05-31 17:03:53.169--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [diaria] is being defaulted to: DIARIA.
+[EL Config]: metadata: 2023-05-31 17:03:53.17--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [datafim] is being defaulted to: DATAFIM.
+[EL Config]: metadata: 2023-05-31 17:03:53.17--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [dias] is being defaulted to: DIAS.
+[EL Config]: metadata: 2023-05-31 17:03:53.17--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [valor] is being defaulted to: VALOR.
+[EL Config]: metadata: 2023-05-31 17:03:53.17--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2023-05-31 17:03:53.17--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [finalizado] is being defaulted to: FINALIZADO.
+[EL Config]: metadata: 2023-05-31 17:03:53.171--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The alias name for the entity class [class modelo.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2023-05-31 17:03:53.171--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The table name for entity [class modelo.Cliente] is being defaulted to: CLIENTE.
+[EL Config]: metadata: 2023-05-31 17:03:53.171--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [cpf] is being defaulted to: CPF.
+[EL Config]: metadata: 2023-05-31 17:03:53.171--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2023-05-31 17:03:53.182--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The primary key column name for the mapping element [field carro] is being defaulted to: PLACA.
+[EL Config]: metadata: 2023-05-31 17:03:53.182--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The foreign key column name for the mapping element [carro] is being defaulted to: CARRO_PLACA.
+[EL Config]: metadata: 2023-05-31 17:03:53.183--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: CPF.
+[EL Config]: metadata: 2023-05-31 17:03:53.183--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--The foreign key column name for the mapping element [cliente] is being defaulted to: CLIENTE_CPF.
+[EL Info]: 2023-05-31 17:03:53.281--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.1.v202302241130
+[EL Fine]: connection: 2023-05-31 17:03:53.54--Thread(Thread[#1,main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQL10Platform
+[EL Fine]: connection: 2023-05-31 17:03:53.564--ServerSession(704024720)--Connection(997033037)--Thread(Thread[#1,main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQL10Platform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/locadora"
+))
+[EL Config]: connection: 2023-05-31 17:03:53.622--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--Connected: jdbc:postgresql://localhost:5432/locadora
+	User: postgres
+	Database: PostgreSQL  Version: 13.2
+	Driver: PostgreSQL JDBC Driver  Version: 42.6.0
+[EL Warning]: metadata: 2023-05-31 17:03:53.636--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [carro] for the entity class [class modelo.Aluguel] since weaving was not enabled or did not occur.
+[EL Warning]: metadata: 2023-05-31 17:03:53.637--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [cliente] for the entity class [class modelo.Aluguel] since weaving was not enabled or did not occur.
+[EL Fine]: connection: 2023-05-31 17:03:53.665--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--/file:/C:/Users/faust/Dropbox/aula-copratilhada/POB/Persistencia-MOR - novo/JPA-Locadora-basico/target/classes/_eclipselink-postgresql login successful
+[EL Fine]: sql: 2023-05-31 17:03:53.869--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT PLACA, ALUGADO, MODELO FROM CARRO
+[EL Fine]: sql: 2023-05-31 17:03:53.881--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT ID, DATAFIM, DATAINICIO, DIARIA, DIAS, FINALIZADO, VALOR, CARRO_PLACA, CLIENTE_CPF FROM ALUGUEL WHERE (CARRO_PLACA = ?)
+	bind => [CCC3000]
+[EL Fine]: sql: 2023-05-31 17:03:53.888--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT CPF, NOME FROM CLIENTE WHERE (CPF = ?)
+	bind => [2222]
+[EL Fine]: sql: 2023-05-31 17:03:53.891--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT ID, DATAFIM, DATAINICIO, DIARIA, DIAS, FINALIZADO, VALOR, CARRO_PLACA, CLIENTE_CPF FROM ALUGUEL WHERE (CARRO_PLACA = ?)
+	bind => [AAA1000]
+[EL Fine]: sql: 2023-05-31 17:03:53.893--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT CPF, NOME FROM CLIENTE WHERE (CPF = ?)
+	bind => [1111]
+[EL Fine]: sql: 2023-05-31 17:03:53.895--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT CPF, NOME FROM CLIENTE
+[EL Fine]: sql: 2023-05-31 17:03:53.896--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT ID, DATAFIM, DATAINICIO, DIARIA, DIAS, FINALIZADO, VALOR, CARRO_PLACA, CLIENTE_CPF FROM ALUGUEL WHERE (CLIENTE_CPF = ?)
+	bind => [1111]
+[EL Fine]: sql: 2023-05-31 17:03:53.898--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT ID, DATAFIM, DATAINICIO, DIARIA, DIAS, FINALIZADO, VALOR, CARRO_PLACA, CLIENTE_CPF FROM ALUGUEL WHERE (CLIENTE_CPF = ?)
+	bind => [2222]
+[EL Fine]: sql: 2023-05-31 17:03:53.899--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT ID, DATAFIM, DATAINICIO, DIARIA, DIAS, FINALIZADO, VALOR, CARRO_PLACA, CLIENTE_CPF FROM ALUGUEL WHERE (CLIENTE_CPF = ?)
+	bind => [3333]
+[EL Fine]: sql: 2023-05-31 17:03:53.901--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--SELECT ID, DATAFIM, DATAINICIO, DIARIA, DIAS, FINALIZADO, VALOR, CARRO_PLACA, CLIENTE_CPF FROM ALUGUEL
+[EL Fine]: connection: 2023-05-31 17:03:53.904--ServerSession(704024720)--Connection(914374969)--Thread(Thread[#1,main,5,main])--disconnect
+[EL Fine]: connection: 2023-05-31 17:03:53.904--ServerSession(704024720)--Thread(Thread[#1,main,5,main])--/file:/C:/Users/faust/Dropbox/aula-copratilhada/POB/Persistencia-MOR - novo/JPA-Locadora-basico/target/classes/_eclipselink-postgresql logout successful
+[EL Fine]: connection: 2023-05-31 17:03:53.905--ServerSession(704024720)--Connection(997033037)--Thread(Thread[#1,main,5,main])--disconnect
